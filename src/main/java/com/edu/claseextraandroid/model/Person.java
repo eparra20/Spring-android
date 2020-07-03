@@ -1,5 +1,6 @@
 package com.edu.claseextraandroid.model;
 
+import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -24,6 +25,7 @@ public class Person {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+    @ApiModelProperty(example = "Robin",required = true)
     @Column(name = "name", nullable = false)
     private String nombre;
 

@@ -4,7 +4,7 @@ import com.edu.claseextraandroid.model.Person;
 import com.edu.claseextraandroid.repository.DireccionRepository;
 import com.edu.claseextraandroid.repository.PersonRepository;
 import lombok.extern.log4j.Log4j2;
-import org.graalvm.compiler.hotspot.replacements.Log;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -27,7 +27,7 @@ public class PersonService {
     private DireccionRepository direccionRepository;
 
     public PersonService() {
-        Log.print("hola");
+
     }
 
 

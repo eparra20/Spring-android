@@ -1,4 +1,4 @@
-package com.edu.claseextraandroid.controller;
+package com.edu.claseextraandroid.config;
 
 
 import com.edu.claseextraandroid.dto.RestError;
